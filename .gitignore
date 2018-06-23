@@ -16,22 +16,6 @@ group_vars/all
 # vagrant
 .vagrant
 
-# terraform
-.deploy
-.terraform
-/*.tf
-/*.tf.disabled
-*.tfstate
-*.tfstate.backup
-terraform.tfvars
-.terraform.tfstate.lock.info
-modules/
-desired_cluster_profile.tfvars.example
-desired_cluster_profile
-
-# terraform gce
-/account.json
-
 # ide
 .idea
 
